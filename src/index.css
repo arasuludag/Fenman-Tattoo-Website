@@ -1,0 +1,10 @@
+#root {
+  white-space: pre-line;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img iframe {
+  display: block;
+  margin: 0 auto;
+}
