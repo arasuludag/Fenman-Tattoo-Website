@@ -4,7 +4,7 @@ import "@fontsource/montserrat/100.css";
 
 const config: ThemeConfig = {
   initialColorMode: "system",
-  useSystemColorMode: false,
+  useSystemColorMode: true,
 };
 
 const theme = extendTheme({
