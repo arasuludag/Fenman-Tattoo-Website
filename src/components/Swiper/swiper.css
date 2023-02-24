@@ -13,3 +13,9 @@
   font-weight: bold;
   color: #fff;
 }
+
+@media screen and (max-width: 490px) {
+  .swiper {
+    max-width: 300px;
+  }
+}

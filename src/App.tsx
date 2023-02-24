@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Booking from "./components/Booking";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Samples from "./components/Samples";
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Samples />
       <Booking />
+      <Footer />
     </div>
   );
 }

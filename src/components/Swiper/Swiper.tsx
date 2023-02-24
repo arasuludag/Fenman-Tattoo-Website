@@ -22,19 +22,23 @@ import { EffectCards } from "swiper";
 
 export default function Cards() {
   return (
-    <>
-      <Swiper
-        effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper"
-      >
-        {images.map((imageSRC, index) => (
-          <SwiperSlide key={index}>
-            <Image src={imageSRC} objectFit="fill" alt="Örnek fotoğraflar" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </>
+    <Swiper
+      effect={"cards"}
+      grabCursor={true}
+      modules={[EffectCards]}
+      className="mySwiper"
+    >
+      {images.map((imageSRC, index) => (
+        <SwiperSlide key={index}>
+          <Image
+            src={imageSRC}
+            width="100%"
+            height="100%"
+            objectFit="fill"
+            alt="Örnek fotoğraflar"
+          />
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 }

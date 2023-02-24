@@ -18,7 +18,7 @@ export default function Nav() {
       <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
         <Flex alignItems={"center"}>
           <Stack direction={"row"} spacing={7}>
-            <Button onClick={toggleColorMode}>
+            <Button onClick={toggleColorMode} aria-label="Dark / Light">
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
             <Select

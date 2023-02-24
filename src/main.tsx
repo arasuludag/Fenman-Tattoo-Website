@@ -15,11 +15,14 @@ i18n.use(initReactI18next).init({
     en: english,
     tr: turkish,
   },
-  lng: "tr", // if you're using a language detector, do not define the lng option
-  fallbackLng: "tr",
+  fallbackLng: "tr", // Default language
   interpolation: {
-    escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
+    escapeValue: false, // react already safes from xss
   },
+});
+
+i18n.on("languageChanged", (lng) => {
+  document.documentElement.setAttribute("lang", lng);
 });
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

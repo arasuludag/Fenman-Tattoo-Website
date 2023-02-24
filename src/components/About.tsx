@@ -10,7 +10,7 @@ export default function CallToActionWithVideo() {
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 150 }}
-        py={{ base: 50 }}
+        margin="150px 0px"
         direction={{ base: "column", md: "row" }}
       >
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
@@ -21,7 +21,7 @@ export default function CallToActionWithVideo() {
           >
             {t("About.Title")}
           </Heading>
-          <Text color={"gray.500"}>{t("About.Bio")}</Text>
+          <Text>{t("About.Bio")}</Text>
         </Stack>
         <Image
           alt="Hero Image"

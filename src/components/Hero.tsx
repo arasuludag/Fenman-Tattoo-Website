@@ -1,4 +1,4 @@
-import { Flex, Container, Heading, Stack } from "@chakra-ui/react";
+import { Image, Container, Heading, Stack } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import HeroImage from "../assets/RoseWBirdDrawing.png";
 
@@ -10,7 +10,7 @@ export default function CallToActionWithIllustration() {
         textAlign={"center"}
         align={"center"}
         spacing={{ base: 8, md: 28 }}
-        py={{ base: 50 }}
+        margin="75px 0px 150px 0px"
       >
         <Heading
           fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }}
@@ -19,7 +19,7 @@ export default function CallToActionWithIllustration() {
           {t("Company Name")}
         </Heading>
 
-        <img width="400px" src={HeroImage} />
+        <Image width="400px" src={HeroImage} alt="Nagehan Fenman Kuş Çizimi" />
       </Stack>
     </Container>
   );
