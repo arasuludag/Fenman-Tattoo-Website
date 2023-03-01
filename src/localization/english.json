@@ -1,5 +1,13 @@
 {
   "translation": {
-    "Company Name": "Nagehan Fenman Tattoo Studio"
+    "Company Name": "Nagehan Fenman",
+    "About": {
+      "Title": "About",
+      "Bio": "I was born in 1992 in Istanbul. I completed my undergraduate education at Mimar Sinan Fine Arts University Painting Department. \nI started tattooing in 2018 and continue to work in my own workshop. I love to paint everything from nature, especially botany, with colours."
+    },
+    "Booking": {
+      "Title": "Rendezvous",
+      "Info": "I prefer to prepare personalised designs for everyone I work with. For this reason, I kindly ask you to support the ideas you have in mind with visual examples while booking an appointment. Do not forget to add the area(s) you plan to get tattooed and the average dimensions to your e-mail."
+    }
   }
 }
