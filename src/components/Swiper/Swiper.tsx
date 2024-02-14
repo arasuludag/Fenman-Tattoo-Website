@@ -13,7 +13,7 @@ function getImageUrl(name: string) {
 }
 
 let images: string[] = [];
-for (let i = 1; i < 13; i++) {
+for (let i = 1; i < 20; i++) {
   images.push(getImageUrl(i.toString()));
 }
 
