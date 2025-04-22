@@ -14,7 +14,7 @@ export default function CallToActionWithVideo() {
 				<iframe
 					src="https://instagram.com/nagehan.fenman/embed"
 					width="450"
-					height="455"
+					height="500"
 					style={{ borderRadius: '20px', overflow: 'hidden' }}
 					title="Nagehan Fenman Instagram"
 				></iframe>
