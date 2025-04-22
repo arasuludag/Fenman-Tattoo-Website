@@ -12,7 +12,7 @@ export default function CallToActionWithVideo() {
 			>
 				<Swiper />
 				<iframe
-					src="https://instagram.com/nagehan.tattoos/embed"
+					src="https://instagram.com/nagehan.fenman/embed"
 					width="450"
 					height="455"
 					style={{ borderRadius: '20px', overflow: 'hidden' }}
